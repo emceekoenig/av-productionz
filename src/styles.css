@@ -30,7 +30,7 @@ header h2 {
 
 header h3 {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.5;
   margin: 0;
 }
@@ -75,6 +75,6 @@ footer {
   }
 
   header h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
