@@ -122,4 +122,24 @@ footer p {
   header h3 {
     font-size: 14px;
   }
+
+  footer p {
+    font-size: 14px;
+    padding: 0 30px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .built-by {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .built-by p {
+    font-size: 12px;
+  }
 }
