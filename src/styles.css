@@ -5,3 +5,8 @@ h1 {
   font-weight: 700;
   line-height: normal;
 }
+
+footer {
+  font-family: Poppins;
+  font-size: 8px;
+}
