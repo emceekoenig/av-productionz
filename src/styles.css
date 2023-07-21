@@ -9,11 +9,49 @@ body {
 
 .grid {
   display: grid;
-  grid-gap: 64px;
+  grid-gap: 30px;
 }
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.card-header {
+  padding: 0;
+}
+
+.card-header img {
+  background: white;
+  padding: 50px;
+  width: 300px;
+  height: 200px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  background: goldenrod;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  transition: all 200ms ease;
 }
 
 .grid-3-columns-with-first-col-narrow {
@@ -102,6 +140,18 @@ main h3 {
   margin: 0;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+}
+
 main p {
   font-style: normal;
   font-weight: 400;
@@ -117,8 +167,14 @@ section {
   padding: 100px;
 }
 
+section.secondary {
+  background: #f8f8f8;
+  color: black;
+}
+
 .image-responsive {
   max-width: 100%;
+  display: block;
 }
 
 footer {
@@ -151,7 +207,7 @@ footer p {
   padding-bottom: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 925px) {
   header {
     padding: 60px 5px;
   }
@@ -187,6 +243,15 @@ footer p {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 30px;
+  }
+
+  .card-header img {
+    padding: 30px;
+    width: 100%;
+  }
+
+  .grid-2-columns {
+    text-align: center;
   }
 
   .grid-3-columns-with-first-col-narrow {
