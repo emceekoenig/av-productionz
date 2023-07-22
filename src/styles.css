@@ -40,6 +40,11 @@ body {
   padding: 30px;
 }
 
+.card-body-content {
+  height: 230px;
+  margin-bottom: 10px;
+}
+
 .btn {
   display: block;
   color: white;
@@ -173,8 +178,9 @@ section.secondary {
 }
 
 .image-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
+  margin: 0 auto;
 }
 
 footer {
