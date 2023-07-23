@@ -274,6 +274,14 @@ footer p {
     text-align: center;
   }
 
+  .grid-3-columns.gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  iframe {
+    height: 250px;
+  }
+
   .built-by {
     display: block;
     margin: 0 auto;
