@@ -16,6 +16,10 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-2-columns p {
+  font-size: 24px;
+}
+
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -188,6 +192,11 @@ iframe {
   aspect-ratio: 1/1;
 }
 
+.instagram-media {
+  display: block !important;
+  margin: 0 auto !important;
+}
+
 footer {
   font-size: 12px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
@@ -253,12 +262,16 @@ footer p {
 
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 30px;
+    grid-gap: 10px;
+  }
+
+  .card {
+    margin: 10px 0;
   }
 
   .card-header img {
     padding: 30px;
-    width: 100%;
+    height: 150px;
   }
 
   .card-body-content {
@@ -270,12 +283,16 @@ footer p {
     text-align: center;
   }
 
+  .grid-2-columns p {
+    font-size: 16px;
+  }
+
   .grid-3-columns-with-first-col-narrow {
     text-align: center;
   }
 
   .grid-3-columns.gallery {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   iframe {
